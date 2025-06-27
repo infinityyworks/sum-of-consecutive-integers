@@ -7,7 +7,7 @@ target = int(target)
 print()
 printAll = ''
 while not (printAll == 'y' or printAll == 'n'):
-    printAll = input('Should all possible sums be shows (y/n)?  ')
+    printAll = input('Should all possible consecutive sums be shown (y/n)?  ')
 print()
 n = 1
 x = target
